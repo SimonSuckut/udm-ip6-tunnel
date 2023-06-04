@@ -1,0 +1,18 @@
+Source: udm-ip6-tunnel
+Section: devel
+Priority: optional
+Maintainer: Fabian Mastenbroek <simon.suckut@gmail.com>
+Build-Depends:
+ debhelper (>= 11),
+ wget
+Standards-Version: 1.0.0
+Vcs-Git: https://github.com/SimonSuckut/udm-ip6-tunnel.git
+Vcs-Browser: https://github.com/SimonSuckut/udm-ip6-tunnel.git
+Homepage: https://github.com/SimonSuckut/udm-ip6-tunnel
+
+Package: udm-ip6-tunnel
+Architecture: arm64
+Depends: linux-image-4.19.152-ui-alpine
+Section: admin
+Priority: optional
+Description: Adds ipip6 tunnel supoport to Unifi Dream Machine
